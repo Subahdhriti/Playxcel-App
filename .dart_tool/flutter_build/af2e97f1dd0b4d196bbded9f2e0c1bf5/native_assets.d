@@ -1,0 +1,1 @@
+ /Volumes/Work/Playxcel/Playxcel-App/.dart_tool/flutter_build/af2e97f1dd0b4d196bbded9f2e0c1bf5/native_assets.yaml: 
