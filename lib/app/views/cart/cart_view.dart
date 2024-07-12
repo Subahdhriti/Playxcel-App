@@ -12,9 +12,8 @@ class CartView extends StatefulWidget {
 }
 
 class _CartViewState extends State<CartView> {
-  @override
+   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return const Scaffold();
   }
 }

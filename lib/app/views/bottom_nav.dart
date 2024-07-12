@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:playxcel_app/app/views/cart/cart_view.dart';
+import 'package:playxcel_app/app/views/categories/category_view.dart';
 import 'package:playxcel_app/app/views/favorite/favorite_view.dart';
 import 'package:playxcel_app/app/views/homeview/home_view.dart';
 import 'package:playxcel_app/app/views/profile/profile_view.dart';
@@ -17,7 +18,7 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   int cuttentIndex = 2;
     List screens = const [
-    Scaffold(),
+    CategoryView(),
     FavoriteView(),
     HomeView(),
     CartView(),

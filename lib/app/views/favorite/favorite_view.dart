@@ -13,7 +13,6 @@ class FavoriteView extends StatefulWidget {
 class _FavoriteState extends State<FavoriteView>{
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return const Scaffold();
   }
 }

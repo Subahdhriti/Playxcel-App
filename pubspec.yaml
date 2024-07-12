@@ -61,7 +61,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/icons/playxcel.svg
+    - assets/icons/playxcel-icon.png
+    - assets/images/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

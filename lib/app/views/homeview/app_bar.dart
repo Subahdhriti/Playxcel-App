@@ -1,33 +1,34 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:playxcel_app/constants.dart';
 
-class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
+class MyAppBar extends StatelessWidget {
   const MyAppBar({
     super.key,
   });
 
-  @override
+    @override
   Widget build(BuildContext context) {
-    return AppBar(
-      title: const Text(
-        "PLAYXCEL", 
-        textAlign: TextAlign.left,
-        style: TextStyle(
-          color: Colors.white,
-          fontSize: BorderSide.strokeAlignInside
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        IconButton(
+          onPressed: () {},
+          icon: Image.asset(
+            "assets/icons/playxcel-icon.png",
+            height: 50,
+          ),
         ),
+        IconButton(
+          style: IconButton.styleFrom(
+            backgroundColor: kcontentColor,
+            padding: const EdgeInsets.all(10),
+          ),
+          onPressed: () {},
+          iconSize: 25,
+          icon: const Icon(Icons.notifications_outlined),
         ),
-      leading: IconButton(
-        icon: SvgPicture.asset(
-          'assets/icon/playxcel.svg',
-          
-        ),
-        onPressed: (){}
-      ),
-      backgroundColor: Colors.deepOrange,
+      ],
     );
   }
-
-  @override
-  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
-}
+  
+} 
