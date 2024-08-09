@@ -1,7 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:playxcel_app/app/models/category.dart';
-import 'package:playxcel_app/app/models/product_model.dart';
+import 'package:playxcel_app/app/models/product_list_response.dart';
+import 'package:playxcel_app/app/repository/product_repository.dart';
 import 'package:playxcel_app/app/views/categories/product_card.dart';
 import 'package:playxcel_app/app/views/homeview/app_bar.dart';
 
@@ -16,13 +17,28 @@ class _CategoryViewState extends State<CategoryView> {
 
   int selectedIndex = 0;
 
+  late Future<ProductList> sportsProduct;
+  late Future<ProductList> shoes;
+  late Future<ProductList> accessories;
+  late Future<ProductList> fasion;
+
+  @override
+  void initState() {
+    super.initState();
+    sportsProduct = fetchProducts("sports", "token");
+    shoes =  fetchProducts("shoes", "token");
+    accessories = fetchProducts("accessories", "token");
+    fasion = fetchProducts("fasion", "token");
+  }
+
   @override
   Widget build(BuildContext context) {
-      List<List<Product>> selectcategories = [
-      all,
+
+    List<Future<ProductList>> selectcategories = [
+      sportsProduct,
       shoes,
-      womenFashion,
-      menFashion
+      fasion,
+      accessories
     ];
     return Scaffold(
       body: SingleChildScrollView(
@@ -36,7 +52,31 @@ class _CategoryViewState extends State<CategoryView> {
 
               // for shopping items
               const SizedBox(height: 10),
-              GridView.builder(
+
+              FutureBuilder<ProductList>(
+                future: selectcategories[selectedIndex],
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const CircularProgressIndicator();
+                  } else if (snapshot.hasError) {
+                    return Text('Error: ${snapshot.error}');
+                  } else if (snapshot.hasData) {
+                    return gridViewBuilder(snapshot.data!);
+                  } else {
+                    return const Text('No data');
+                  }
+                }
+              ),
+            ],
+          ),
+        ),
+      )
+    );
+  }
+
+
+  GridView gridViewBuilder(ProductList data) {
+    return GridView.builder(
                 padding: EdgeInsets.zero,
                 physics: const NeverScrollableScrollPhysics(),
                 shrinkWrap: true,
@@ -45,21 +85,16 @@ class _CategoryViewState extends State<CategoryView> {
                     childAspectRatio: 0.75,
                     crossAxisSpacing: 20,
                     mainAxisSpacing: 20),
-                itemCount: selectcategories[selectedIndex].length,
+                itemCount: data.productList.length,
                 itemBuilder: (context, index) {
                   return ProductCard(
-                    product: selectcategories[selectedIndex][index],
+                    product: data.productList[index],
                   );
                 },
-              )
-            ],
-          ),
-        ),
-      )
-    );
+              );
   }
 
-    SizedBox categoryItems() {
+  SizedBox categoryItems() {
     return SizedBox(
       height: 130,
       child: ListView.builder(

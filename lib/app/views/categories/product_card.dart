@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:playxcel_app/app/Provider/favorite_provider.dart';
 import 'package:playxcel_app/app/models/product_model.dart';
+import 'package:playxcel_app/app/views/detail/product_details.dart';
 import 'package:playxcel_app/constants.dart';
 
 class ProductCard extends StatelessWidget {
@@ -13,12 +14,12 @@ class ProductCard extends StatelessWidget {
 
     return GestureDetector(
       onTap: () {
-        // Navigator.push(
-        //   context,
-        //   MaterialPageRoute(
-        //     builder: (context) => DetailScreen(product: product),
-        //   ),
-        // );
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => ProductDetailsView(product: product),
+          ),
+        );
       },
       child: Stack(
         children: [
@@ -34,16 +35,16 @@ class ProductCard extends StatelessWidget {
                 const SizedBox(height: 5),
                 Center(
                   child: Hero(
-                    tag: product.image,
+                    tag: (product.images!.isEmpty ? altImageUrl : product.images![0].url),
                     child: Image.asset(
-                      product.image,
+                      product.images!.isEmpty ? altImageUrl : product.images![0].url,
                       width: 150,
                       height: 150,
                       fit: BoxFit.cover,
                     ),
                   ),
                 ),
-                const SizedBox(height: 10),
+                //const SizedBox(height: 10),
                 Padding(
                   padding: const EdgeInsets.only(left: 10),
                   child: Text(
@@ -52,40 +53,52 @@ class ProductCard extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontSize: 16,
                     ),
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
-                const SizedBox(height: 10),
+                Padding(
+                  padding: const EdgeInsets.only(left: 10),
+                  child: Text(
+                    product.description,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.normal,
+                      fontSize: 12,
+                    ),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+               // const SizedBox(height: 10),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Text(
-                      "\$${product.price}",
+                      "\  ₹ ${product.price}",
                       style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 17,
                       ),
                     ),
-                    Row(
-                      children: List.generate(
-                        product.colors.length,
-                        (index) => Container(
-                          width: 18,
-                          height: 18,
-                          margin: const EdgeInsets.only(right: 4),
-                          decoration: BoxDecoration(
-                            color: product.colors[index],
-                            shape: BoxShape.circle,
-                          ),
-                        ),
-                      ),
-                    )
+                    // Row(
+                    //   children: List.generate(
+                    //     product.colors.length,
+                    //     (index) => Container(
+                    //       width: 18,
+                    //       height: 18,
+                    //       margin: const EdgeInsets.only(right: 4),
+                    //       decoration: BoxDecoration(
+                    //         color: product.colors[index],
+                    //         shape: BoxShape.circle,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // )
                   ],
                 )
               ],
             ),
           ),
           Positioned(
-              child: Align(
+            child: Align(
             alignment: Alignment.topRight,
             child: Container(
               height: 40,

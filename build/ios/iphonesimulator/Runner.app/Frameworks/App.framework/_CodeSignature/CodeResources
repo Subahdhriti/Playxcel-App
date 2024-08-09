@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		zIUx6Fc5TfoQi9dF1LUKIutqvrM=
+		UuI7uU8CtA+id6UrQ6YhiY2Z+04=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		RVpKp3BBHa+hImLUGsqOr3/E5Ww=
+		OAzQJ2Wr6zeo2raaN+tyvLU/Pek=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -32,6 +32,26 @@
 		<data>
 		Ob4kPHHt0bjo7aTx5dwp5jTEkbc=
 		</data>
+		<key>flutter_assets/assets/images/all/jacket.png</key>
+		<data>
+		rEcscoF1vNEvMdhJTp4KPzuD4fI=
+		</data>
+		<key>flutter_assets/assets/images/all/miband.jpg</key>
+		<data>
+		ENo2giaB2b8tlpl3rEe6RbXtYZY=
+		</data>
+		<key>flutter_assets/assets/images/all/sweet.png</key>
+		<data>
+		4fNJ4TQTCr0MwUp8lKOhE/3b1Do=
+		</data>
+		<key>flutter_assets/assets/images/all/wireless.png</key>
+		<data>
+		aXFfVzEry4w2LnVJK1+PI4JU0Ik=
+		</data>
+		<key>flutter_assets/assets/images/alt_image.jpg</key>
+		<data>
+		1B8ll8dQSV6Mm6WuG/s0pEakhBI=
+		</data>
 		<key>flutter_assets/assets/images/beauty.png</key>
 		<data>
 		C68QLPm5Z/ukQr66DvuQc1JbO88=
@@ -48,6 +68,26 @@
 		<data>
 		+gtzW2ZFoXeXCWV0W7Tkk6sx0zk=
 		</data>
+		<key>flutter_assets/assets/images/men%20fashion/man%20jacket.png</key>
+		<data>
+		HX8LZgSoQqo4Yug2VQ4xrcpllB8=
+		</data>
+		<key>flutter_assets/assets/images/men%20fashion/pants.png</key>
+		<data>
+		TLwQ50qK5TLMuOfY00YkspYRuN8=
+		</data>
+		<key>flutter_assets/assets/images/men%20fashion/shert.png</key>
+		<data>
+		Lfizzv9qBxTDwtQUjEosfZU+4UA=
+		</data>
+		<key>flutter_assets/assets/images/men%20fashion/t-shirt.png</key>
+		<data>
+		jsTpMeNb1OdStk7dVJKQBO9JblI=
+		</data>
+		<key>flutter_assets/assets/images/men%20fashion/watch.png</key>
+		<data>
+		58M5j6J3UkRf3+5+g1IYcHDkvss=
+		</data>
 		<key>flutter_assets/assets/images/men.png</key>
 		<data>
 		9JJgaP30fM0gSxnyGWwy3uqEf2A=
@@ -60,6 +100,30 @@
 		<data>
 		+eAVhGVFYYRcaUlH8dT+4/nvjhY=
 		</data>
+		<key>flutter_assets/assets/images/shoes/Air%20Jordan.png</key>
+		<data>
+		Ff06qNSuKAnOn2yj8FJ8URoh+3o=
+		</data>
+		<key>flutter_assets/assets/images/shoes/New%20Balance%20990.png</key>
+		<data>
+		VFdXj71IPaUwDUbwR/QAsUfep8c=
+		</data>
+		<key>flutter_assets/assets/images/shoes/sports%20shoes.png</key>
+		<data>
+		Kfg4X86JUn9TdrRlK/ikdn853kA=
+		</data>
+		<key>flutter_assets/assets/images/shoes/vans%20old%20skool.png</key>
+		<data>
+		iQUp8HYAWWx6xxSk69N5kmgPWqY=
+		</data>
+		<key>flutter_assets/assets/images/shoes/white%20sneaker.png</key>
+		<data>
+		38gZNzZSp5+Xwex0DxbrdFDPRkA=
+		</data>
+		<key>flutter_assets/assets/images/shoes/women-shoes.png</key>
+		<data>
+		HtYYQ1DiHSt3MujaaBa78HpyQkM=
+		</data>
 		<key>flutter_assets/assets/images/slider.jpg</key>
 		<data>
 		0nkn3WgLB6VRmRAFxzqsXneXrEY=
@@ -67,6 +131,22 @@
 		<key>flutter_assets/assets/images/slider3.png</key>
 		<data>
 		3piTuaNoKi9cMRLbz7YysPRA9n0=
+		</data>
+		<key>flutter_assets/assets/images/women%20fashion/kurta.png</key>
+		<data>
+		EtyHRoegocK4HgVLTkgGUgBFj/M=
+		</data>
+		<key>flutter_assets/assets/images/women%20fashion/lehenga.png</key>
+		<data>
+		tuca8AnzjBX+9hDAqG60J0uQI0I=
+		</data>
+		<key>flutter_assets/assets/images/women%20fashion/pants.png</key>
+		<data>
+		s43/ya5cZvB5SHHULfl+62bf+oY=
+		</data>
+		<key>flutter_assets/assets/images/women%20fashion/t-shert.png</key>
+		<data>
+		GoIZLfVtnPgxUSn6vlvjmsaLoJQ=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -78,7 +158,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		3u5W2V0ku9FI1bdGycNOHKCWABE=
+		6j4AjHmGnADWZbs14E5Cx8FH2XE=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -99,14 +179,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JF5pkM4l5oobZIIihE5PVdnXN9FwseMHlqtlw5UxURQ=
+			+8+iEmFE90a+W2NSgT5hyv0qq9yFJvRL0x2VsbocMiY=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			slzeyTb+A9WDgnY239K3MTKBuLM4MTVp4L2QoSiduW4=
+			RvrbzQVJYHA1DP12tj7W/RyTgHNRrcB9sgEMiJ4E9gA=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -137,6 +217,41 @@
 			4XSLJ0QW+qk/Oe80920t09uQWo/WtTvTwY1sbTriY2c=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/all/jacket.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			go1h7BMrMzB7j5i7F1AWTC+W6XyeerhGj7RFdXqtHhQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/all/miband.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pNZe5yMCAuMHv5s1rpUsgJikQrU0iIpwcygHE6z3AM8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/all/sweet.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L25C7GGYZdAYq9vTrfSAHcLrZ2KqMXZnSir76bB+fD4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/all/wireless.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P90SFe3w1JpqUuQS0EdzEj9BhddVwT0iow2jCXwyC2E=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/alt_image.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9fSDqnMV40OJUwr6rE7CocMt/XCpYt4xPM4eO1I4T0s=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/beauty.png</key>
 		<dict>
 			<key>hash2</key>
@@ -165,6 +280,41 @@
 			ehUu78cyXMlUEGlp974YRk5TKTKNTLMQEsOlrqafK54=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/men%20fashion/man%20jacket.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IghGpSD6ITiQdjBWooxPm0hMKE5l0TBYa8Re4Pi5iyQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/men%20fashion/pants.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NpfSiqDoNCgMWtMu5v5WsqMsY2QL3KiHGM4qa8fMrC4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/men%20fashion/shert.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gvHCPj3VuEzwweUESrnqpF9U6RyazaME2q4wfKrev+4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/men%20fashion/t-shirt.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r0EE3+7x5Z7tIRobzd5Jp35Q2oCk1qxnomwSnRt+WDo=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/men%20fashion/watch.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uXbTsVq7KB5PXPR8lsLKPzlyIwhco08131xweyVHuDo=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/men.png</key>
 		<dict>
 			<key>hash2</key>
@@ -186,6 +336,48 @@
 			GsBgxouxAhRdzp1EvIHIAG1t2PfTOKyqjZsd+4ZxbQ8=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/shoes/Air%20Jordan.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yG8QxTNaPtcXf9NWofPnipk0MmrljuR2gUbyM/11eUk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/shoes/New%20Balance%20990.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sWSkpUDgxIOgjk2d04TQ7yXH/9K1gDmatjcvRl+wQeU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/shoes/sports%20shoes.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qTmVBGGjBVD9zB7gBMBYXpQKjYz/Iz8/3W7Uy4287QE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/shoes/vans%20old%20skool.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NaPq4fuAHyqs0ue+9bYkcTDxo918CeCxim1Ylwfo/Lg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/shoes/white%20sneaker.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V1AdUs0sO3LZjwZ3Hpi3FEFkCDtBvJmIvu+Bs7cdEvI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/shoes/women-shoes.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hQbyrcSqh0Q/pC0NrTY/+lJ2ybjfha5QNmvKdkZqyGA=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/slider.jpg</key>
 		<dict>
 			<key>hash2</key>
@@ -198,6 +390,34 @@
 			<key>hash2</key>
 			<data>
 			p4w49ja/f+1YnpvWKyRR81bPpzSAG85GzPxhuyMX0jY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/women%20fashion/kurta.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2zbvbYmyWU9TR1bFuziHezVor6oxBt06u54kktJlHYg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/women%20fashion/lehenga.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jx7O7TGWR+P73r8gVpi43Q+NmOes6u4KXS/Z8E3/inM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/women%20fashion/pants.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AnxuHYe0v4xAnEnNa0InvEcIZZPFF5YyTWVSaCMJdas=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/women%20fashion/t-shert.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+ojrgyXqGrNUr56pfRUB5Fs2T1cfcA9tW57pMUGtgkI=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -218,7 +438,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OzgxV/vgDBMvxlDSIkxPdDYaTLlE6RINHfNnp3WY4P8=
+			48edSuORV5aqmJW1ZUsXZeDoIfE8eBu1Wvmy7PiKGcw=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

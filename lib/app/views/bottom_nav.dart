@@ -88,7 +88,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
                 });
               },
               icon: Icon(
-                Icons.shopping_cart_outlined,
+                Icons.discount_outlined,
                 size: 30,
                 color: cuttentIndex == 3 ? kprimaryColor : Colors.grey.shade400,
               ),

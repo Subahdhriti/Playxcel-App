@@ -12,7 +12,7 @@ class CartView extends StatefulWidget {
 }
 
 class _CartViewState extends State<CartView> {
-   @override
+  @override
   Widget build(BuildContext context) {
     return const Scaffold();
   }
